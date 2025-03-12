@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Personal Webpage</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital@1&family=Raleway&display=swap" rel="stylesheet">
+	<link rel="icon" type="image/png" href="images/Logo.png">
+
+	<style>
+		.about-me {
+			width: 85%;
+			margin: auto;
+			padding: 80px 0;
+			display: flex;
+			flex-wrap: wrap;
+			align-items: center;
+			justify-content: space-between;
+		}
+		.about-col {
+			flex: 1;
+			padding: 20px;
+		}
+		.about-col img {
+			width: 100%;
+			max-width: 400px;
+			border-radius: 10px;
+			display: block;
+			margin: auto;
+		}
+		@media (max-width: 768px) {
+			.about-me {
+				flex-direction: column;
+				text-align: center;
+			}
+			.about-col img {
+				margin-top: 20px;
+			}
+		}
+	</style>
+</head>
+<body>
+
+<section class="sub-header">
+	<nav>
+		<a href="david.html"><img src="images/Logo.png"></a>
+		<div class="nav-links">
+			<ul>
+				<li><a href="index.html">HOME</a></li>
+				<li><a href="aboutme.html">ABOUT ME</a></li>
+				<li><a href="skills.html">SKILLS</a></li>
+				<li><a href="artworks.html">ARTWORKS</a></li>
+				<li><a href="contact.html">CONTACT</a></li>
+			</ul>
+		</div>
+	</nav>
+	<h1>About Me</h1>
+</section>
+
+<section class="about-me">
+	<div class="about-col">
+		<h1>All About David</h1>
+		<p>Hello! My name is King David G. Aguilon, born on June 19, 2003. I graduated from ACLC College Batangas and am currently pursuing a Bachelor of Science in Information Technology at Batangas State University.</p>
+		<p>I live in Sambat, San Pascual, Batangas, with my parents, elder siblings, younger brother, and younger sister. My father is a company driver, working hard to support our family, while my mother takes care of our home.</p>
+		<p>My hobbies include watching anime, K-dramas, and Thai dramas. Anime, in particular, has taught me valuable lessons about perseverance, relationships, and human nature. I also enjoy drawing, a passion I developed in elementary school thanks to my sister, who introduced me to art and anime.</p>
+		<a href="artworks.html" class="hero-btn red-btn">My Artworks</a>
+	</div>
+	<div class="about-col">
+		<img src="images/david.jpg" alt="King David Aguilon">
+	</div>
+</section>
+
+<section class="contact">
+	<h4>Contact Me</h4>
+	<p>📞 Mobile: 09502657401<br>📧 Email: <a href="mailto:datian.aguilon99@gmail.com">datian.aguilon99@gmail.com</a><br>📧 School Email: <a href="mailto:21-07732@g.batstate-u.edu.ph">21-07732@g.batstate-u.edu.ph</a><br>💻 Facebook: <a href="https://www.facebook.com/david.aguilon.1906" target="_blank">David Aguilon</a><br>🎮 Discord: Phantomhive#9307</p>
+</section>
+<footer class="footer">
+	<p>&copy; 2025 King David Aguilon. All Rights Reserved.</p>
+	<p>
+		<a href="https://www.facebook.com/david.aguilon.1906" target="_blank">Facebook</a> |
+		<a href="mailto:datian.aguilon99@gmail.com">Email</a> |
+		<a href="#">LinkedIn</a>
+	</p>
+</footer>
+</body>
+</html>
