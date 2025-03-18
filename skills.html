@@ -14,8 +14,9 @@
 <body>
     <section class="sub-header">
         <nav>
-            <a href="david.html"><img src="images/Logo.png" alt="Logo"></a>
-            <div class="nav-links">
+            <a href="david.html"><img src="images/Logo.png"></a>
+            <div class="menu-icon" onclick="toggleMenu()">☰</div>
+            <div class="nav-links" id="navLinks">
                 <ul>
                     <li><a href="index.html">HOME</a></li>
                     <li><a href="aboutme.html">ABOUT ME</a></li>
@@ -29,84 +30,87 @@
     </section>
 
     <section class="skills-container">
+        <h2>What I Can Do</h2>
         <div class="what-i-can-do">
-            <h2>What I Can Do</h2>
             <p>My expertise lies in UI/UX design, where I create visually appealing and user-friendly interfaces that enhance user experiences. Additionally, I have strong proficiency in Microsoft Excel, particularly in business analytics and data visualization, which helps in deriving valuable insights from complex datasets. I am highly skilled in drawing, which allows me to create unique and engaging visual elements for designs and illustrations. While I have a fundamental understanding of HTML and CSS, I am continuously improving my web development skills. My experience in Flutter allows me to build functional mobile applications, and I am exploring deeper into JavaScript to enhance interactivity in web applications. My goal is to blend my design skills with technical knowledge to develop innovative and efficient solutions.</p>
         </div>
         <div class="skills-list">
             <h1>My Skills</h1>
             <div class="skill">
-                <div class="skill-name">HTML & CSS - 50%</div>
+                <div class="skill-name">Drawing</div>
                 <div class="progress-bar">
-                    <div class="progress" style="width: 50%;">50%</div>
+                    <div class="progress" style="width: 95%;">95%</div>
+                </div>
+            <div class="skill">
+                <div class="skill-name">UI/UX Design</div>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 90%;">90%</div>
                 </div>
             </div>
             <div class="skill">
-                <div class="skill-name">JavaScript - 30%</div>
+                <div class="skill-name">Power BI (Business Analytics)</div>
                 <div class="progress-bar">
-                    <div class="progress" style="width: 30%;">30%</div>
+                    <div class="progress" style="width: 80%;">80%</div>
                 </div>
             </div>
             <div class="skill">
-                <div class="skill-name">Flutter & Dart - 60%</div>
+                <div class="skill-name">Flutter & Dart</div>
                 <div class="progress-bar">
                     <div class="progress" style="width: 60%;">60%</div>
                 </div>
             </div>
             <div class="skill">
-                <div class="skill-name">UI/UX Design - 90%</div>
+                <div class="skill-name">HTML & CSS</div>
                 <div class="progress-bar">
-                    <div class="progress" style="width: 90%;">90%</div>
+                    <div class="progress" style="width: 50%;">50%</div>
                 </div>
             </div>
             <div class="skill">
-                <div class="skill-name">Microsoft Excel (Business Analytics) - 88%</div>
+                <div class="skill-name">JavaScript</div>
                 <div class="progress-bar">
-                    <div class="progress" style="width: 88%;">88%</div>
+                    <div class="progress" style="width: 30%;">30%</div>
                 </div>
             </div>
-            <div class="skill">
-                <div class="skill-name">Drawing - 95%</div>
-                <div class="progress-bar">
-                    <div class="progress" style="width: 95%;">95%</div>
-                </div>
-            </div>
+
             <h1>Tools & Software Proficiency</h1>
             <div class="skill">
-                <div class="skill-name">Microsoft Office Suite - 90%</div>
+                <div class="skill-name">Microsoft Office Suite</div>
                 <div class="progress-bar">
                     <div class="progress" style="width: 90%;">90%</div>
                 </div>
             </div>
             <div class="skill">
-                <div class="skill-name">Figma - 85%</div>
+                <div class="skill-name">Figma</div>
                 <div class="progress-bar">
                     <div class="progress" style="width: 85%;">85%</div>
                 </div>
             </div>
             <div class="skill">
-                <div class="skill-name">Adobe Illustrator - 75%</div>
+                <div class="skill-name">Adobe Illustrator</div>
                 <div class="progress-bar">
-                    <div class="progress" style="width: 75%;">75%</div>
+                    <div class="progress" style="width: 60%;">60%</div>
                 </div>
             </div>
             <div class="skill">
-                <div class="skill-name">Adobe Photoshop - 75%</div>
+                <div class="skill-name">Adobe Photoshop</div>
                 <div class="progress-bar">
-                    <div class="progress" style="width: 75%;">75%</div>
+                    <div class="progress" style="width: 60%;">60%</div>
                 </div>
             </div>
         </div>
     </section>
+
+    <script src="script.js"></script>
+
     <section class="contact">
         <h4>Contacts</h4>
         <p>📞 Mobile: 09502657401<br>📧 Email: <a href="mailto:datian.aguilon99@gmail.com">datian.aguilon99@gmail.com</a><br>📧 School Email: <a href="mailto:21-07732@g.batstate-u.edu.ph">21-07732@g.batstate-u.edu.ph</a><br>💻 Facebook: <a href="https://www.facebook.com/david.aguilon.1906" target="_blank">David Aguilon</a><br>🎮 Discord: Phantomhive#9307</p>
     </section>
     <footer class="footer">
         <p>&copy; 2025 King David Aguilon. All Rights Reserved.</p>
-        <p>
-            <a href="https://www.facebook.com/david.aguilon.1906" target="_blank">Facebook</a> |
-            <a href="mailto:datian.aguilon99@gmail.com">Email</a> |
+        <p class="footer-links">
+            <a href="https://www.facebook.com/david.aguilon.1906" target="_blank">Facebook</a>
+            <a href="mailto:datian.aguilon99@gmail.com">Email</a>
             <a href="#">LinkedIn</a>
         </p>
     </footer>
